@@ -95,7 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(text="My Crush!​​", https://t.me/Ngapain_Ngetag"),
+        InlineKeyboardButton(text="My Crush!​​", url=f"t.me/Ngapain_Ngetag"),
     ],
     [
         InlineKeyboardButton(
