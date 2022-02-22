@@ -84,9 +84,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-✪ I'm an wibu theme bot designed to help manage and playing music your telegram group with a lot features.
+🔥 I'm an wibu theme bot designed to help manage and playing music your telegram group with a lot features.
 ────────────────────────
-✪ Hit /help to see my available commands.
+🔥 Hit /help to see my available commands.
 """
 
 buttons = [
@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Hi, I'm {dispatcher.bot.first_name}. Nice to meet You.",
+            f"👋 Hi Besty, Kenalin aku {dispatcher.bot.first_name}. Senang bisa berkenalan denganmu.",
             parse_mode=ParseMode.HTML,
         )
 
@@ -394,7 +394,7 @@ def emiko_about_callback(update, context):
                     [
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/Dhanz0212/WartiyemRobot",
+                            url="https:pornhub.com",
                         ),
                     ],
                     [
@@ -424,7 +424,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, EmikoRobot now ready to manage your group."
+            "\nCongragulations, AnyaRobot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -451,15 +451,15 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            text="*๏ Anya support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Anya.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
+                        InlineKeyboardButton(text="Support", url="t.me/Diskras"),
                         InlineKeyboardButton(
-                            text="Updates", url="https://t.me/KennedyProject"
+                            text="Updates", url="https://t.me/Aksara_Rassa"
                         ),
                     ],
                     [
@@ -471,8 +471,8 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Emiko\n"
-            "\nHere Developers Making And Give Inspiration For Made The EmikoRobot",
+            text=f"๏ Credis for Anya\n"
+            "\nHere Developers Making And Give Inspiration For Made The AnyaRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -784,7 +784,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 5169252959:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
