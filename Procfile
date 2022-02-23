@@ -1,1 +1,1 @@
-worker: python3 -m AnyaRobot
+worker: python3 -m EmikoRobot
