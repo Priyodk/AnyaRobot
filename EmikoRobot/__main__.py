@@ -95,11 +95,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(text="My Crush!​​", url=f"t.me/Ngapain_Ngetag"),
+        InlineKeyboardButton(text="My Crush!​​", url=f"t.me/priyourbae"),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Anya To Your Group ➗", url=f"t.me/{bu}?startgroup=new"
+            text="➗ Add Doctor To Your Group ➗", url=f"t.me/{bu}?startgroup=new"
         ),
     ],
 ]
